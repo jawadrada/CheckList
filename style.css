@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;   
+    background-color: #F5F5F5;
+    overflow-x: hidden;
+  }
+  
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 5%;
+  }
+  
+  header h1{
+    margin: 0;
+    font-weight: normal;
+    color: white;
+  }
+
+  #date{
+    font-size: 1.5rem;
+    font-weight: normal;
+  }
+
+  .flex-container {
+    margin: 5%;
+    border: 2px solid black;
+  }
+  
+  #textInput {
+    display: flex;
+    flex-direction: column;
+    padding: 7%;
+  }
+  
+   #textArea {
+    padding: 5px;
+    font-size: 16px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+  }
+
+  #addButton,
+  #clearButton {
+    background-color: #333;
+    color: #fff;    
+    font-size: 1rem;
+    padding: 2%;    
+    width: 100px; 
+    margin-bottom: 5%;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #checkList {
+    margin: 7%;
+    margin-top: 1px;
+    border: 2px solid black;
+    padding: 6%;
+  }
+
+  button{
+    position: relative;
+    left: 58%;
+  }
+
+  
+  .task {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .task input[type="checkbox"] {
+    margin-right: 5px;
+  }
+
+  .copyRight{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.copyRight a{
+    text-decoration: underline;
+}
+
+
+@media only screen and (min-width:768px){
+  
+  header {
+    padding: 4%;
+  }
+  
+  header h1{
+    font-size: 2.5rem;
+  }
+
+  #date{
+    font-size: 2.5rem;
+    font-weight: normal;
+  }
+  
+   #textArea {
+    padding: 5px;
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+
+  #addButton,
+  #clearButton {
+    padding: 2%;    
+    width: 125px; 
+    margin-bottom: 1%;
+  }
+  
+  #checkList {
+    margin-top: 1px;
+    padding: 5%;
+  }
+
+  button{
+    left: 75%;
+  }
+
+  #addButton{
+    margin-left: 20px;
+  }
+
+  #clearButton{
+    margin-bottom: 40px;
+  }
+
+  .task {
+    margin-bottom: 10px;
+    font-size: 20px;  
+  }
+  
+  .task input[type="checkbox"] {
+    margin-right: 10px;
+  }
+
+  .copyRight{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+}
+
+@media only screen and (min-width: 1024px){
+  header {
+    padding: 4%;
+  }
+
+  #date{
+    font-size: 2.5rem;
+    font-weight: normal;
+  }
+  
+  header h1{
+    font-size: 2.5rem;
+  }
+  
+   #textArea {
+    padding: 5px;
+    font-size: 25px;
+    margin-bottom: 25px;
+  }
+
+  #addButton,
+  #clearButton {
+    padding: 2%;    
+    width: 175px; 
+    margin-bottom: 1%;
+    font-size: 1.5rem;
+  }
+  
+  #checkList {
+    margin-top: 1px;
+    padding: 4%;
+  }
+
+  button{
+    position: relative;
+    left: 74%;
+  }
+
+  #addButton{
+    margin-left: 30px;
+  }
+
+  #clearButton{
+    margin-bottom: 40px;
+  }
+
+  .task {
+    margin-bottom: 10px;
+    font-size: 25px;  
+  }
+
+  .copyRight{
+    font-size: 25px;
+  }
+
+} 
+

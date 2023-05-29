@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="normalize.css">
+  <script src="index.js"></script>
+  <title>To-Do List</title>
+</head>
+<body>
+  <header>
+    <h1>Daily Tasks</h1>
+    <div id = "date"></div>
+  </header>
+
+  <main>
+    <div class = "flex-container">
+        <div id = "textInput">
+        <textarea id = "textArea" name = "textArea" placeholder = "Enter your task here...." required></textarea>
+        <button id = "addButton" type = "submit">Add Task</button>
+        </div>
+
+        <div id = "checkList"></div>
+        <button id = "clearButton" type = "submit">Clear Tasks</button>
+    </div>
+  </main>
+
+  <footer>
+    <p class = "copyRight"> &copy; Copy Right <a href ="mailto:jawadrada18@gmail.com">Jawad Rada</a></p>
+  </footer>
+</body>
+</html>
